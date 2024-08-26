@@ -29,7 +29,10 @@ export default function Aboutme(){
             <Card.Link href="https://t.me/JoudyDawalibi"><i className="fa-brands fa-telegram"></i></Card.Link>
             </Card.Body>
         </Card>
-                    </Col>           
+                    </Col>
+        <Col xs={12} md={6} lg={5}>
+        <img src={star} style={{width:"100% "}} alt='img'></img>
+        </Col>           
                 </Row>
             </Container>
         </section>
