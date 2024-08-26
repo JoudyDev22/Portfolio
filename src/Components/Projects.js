@@ -22,7 +22,7 @@ export default function Projects(){
                         <Nav.Link eventKey="first">First Tab</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                        <Nav.Link eventKey="second">Second Tab</Nav.Link>
+                        <Nav.Link eventKey="second">Second</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                         <Nav.Link eventKey="third">Third Tab</Nav.Link>

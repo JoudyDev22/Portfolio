@@ -9,6 +9,7 @@ export default function Aboutme(){
                 <Row>
                     <h1>About me</h1>
                     <Col  xs={12} md={6} xl={7}>
+                    <div >
                     <Card style={{ width: '20rem',padding:"10px",marginTop:"50px", background:" linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%)" }}>
             <Card.Body>
             <Card.Title style={{fontWeight:"bold",color:"#fff"}}>Personal Info</Card.Title>
@@ -29,6 +30,7 @@ export default function Aboutme(){
             <Card.Link href="https://t.me/JoudyDawalibi"><i className="fa-brands fa-telegram"></i></Card.Link>
             </Card.Body>
         </Card>
+        </div>
                     </Col>
         <Col xs={12} md={6} lg={5}>
         <img src={star} style={{width:"100% "}} alt='img'></img>
