@@ -6,7 +6,7 @@ export default function Projectcard(props){
     return(
         <Col sm={6} md={4}>
         <div >
-        <Card style={{ width: '25rem',height:"25rem" }}>
+        <Card className="project-card" style={{ width: '25rem',height:"25rem" }}>
         <Card.Img variant="top" src={props.img} />
         <Card.Body>
         <Card.Title style={{textAlign:"start",fontWeight:"bold"}}>{props.title}</Card.Title>

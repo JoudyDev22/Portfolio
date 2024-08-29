@@ -13,7 +13,7 @@ export default function Contact(){
                     <p>If you want to work together, or ask for something ... send a message or use social media links below</p>
                     <h5 style={{display:"flex"}}>Contact info</h5>
                     <hr></hr>
-                    <p style={{display:"flex"}}> <a style={{color:"#fff"}} href="http://dawalibyjojo@gmail.com">dawalibyjojo@gmail.com</a></p>
+                    <p style={{display:"flex"}}> <a style={{color:"#fff"}} href="http://joudydawalibi9@gmail.com">joudydawalibi9@gmail.com</a></p>
                     <hr></hr>
                     <h5 style={{display:"flex"}}>Social Media</h5>
                     <div className='social-icon'>
