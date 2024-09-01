@@ -8,8 +8,8 @@ export default function Contact(){
         <section className="contact" id="connect">
             <Container>
                 <Row className="align-items-center">
-                    <Col md={6}>
                     <h2 style={{display:"flex"}}>Contact Me</h2>
+                    <Col xs={12} md={6} xl={7}>
                     <p>If you want to work together, or ask for something ... send a message or use social media links below</p>
                     <h5 style={{display:"flex"}}>Contact info</h5>
                     <hr></hr>
@@ -24,7 +24,7 @@ export default function Contact(){
             <a href="https://t.me/JoudyDawalibi" className='link'><i className="fa-brands fa-telegram"></i></a>
             </div>
                     </Col>
-                    <Col md={6}>
+                    <Col xs={12} md={6} lg={5}>
                     <img src={coo} alt="ff"></img>
                     </Col>
                 </Row>
