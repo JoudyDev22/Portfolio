@@ -1,5 +1,6 @@
 import { Container ,Col,Row, Nav, Tab} from "react-bootstrap";
 import Projectcard from "./Projectcard";
+import Cart from "./Cart";
 
 export default function Projects(){
     const project=[{
@@ -8,6 +9,14 @@ export default function Projects(){
         desc:"A link between job seekers and business owners",
         lang: "React",
         link:"https://github.com/JoudyDev22/job"
+    }
+]
+    const project2=[{
+        img: require("./../assests/Screenshot (228).png"),
+        title:"Foodor - Restaurant Service Template",
+        lang: "React ,Bootstrap",
+        link:"https://github.com/JoudyDev22/Bootstrap-Project",
+        pre:"https://joudydev22.github.io/Bootstrap-Project/"
     }
 ]
         return(
@@ -41,7 +50,18 @@ export default function Projects(){
                                 </div>
                             </Row>
                             }</Tab.Pane>
-                        <Tab.Pane eventKey="second">No results found</Tab.Pane>
+                        <Tab.Pane eventKey="second">
+                        <Row >
+                                <div style={{display:"flex",alignItems:"flex-start",justifyContent:"space-between",flexWrap:"wrap",gap:"10px"}}>{
+                            project2.map((pro,index)=>{
+                                return (
+                                    <Cart key={index} img={pro.img} title={pro.title} desc={pro.desc} link={pro.link} pre={pro.pre} lang={pro.lang}></Cart>
+                                )
+                            })
+                                }
+                                </div>
+                            </Row>
+                        </Tab.Pane>
                         <Tab.Pane eventKey="third">No results found</Tab.Pane>
                         </Tab.Content>
                         </Tab.Container>
