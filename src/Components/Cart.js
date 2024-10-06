@@ -15,8 +15,8 @@ export default function Cart(props){
         <Card.Text style={{textAlign:"start",fontWeight:"bold"}}><span style={{color:"rgb(13 110 253)"}}>Built With :</span> {props.lang}</Card.Text>
         <div style={{display:"flex" ,gap:"3px"}}>
         <Button variant="dark"  ><Link to={props.link} style={{textDecoration:"none",color:"white"}}>< Github ></Github>  Github</Link></Button>
-        <Button variant="primary"  ><Link to={props.pre} style={{textDecoration:"none",color:"white",marginLeft:"4px"}}> <Eye></Eye> Live Preview</Link></Button>
-        </div>
+        <Button variant="primary"  ><a href={props.pre} style={{textDecoration:"none",color:"white",marginLeft:"4px"}}> <Eye></Eye> Live Preview</a></Button>
+        </div> 
         </Card.Body>
         </Card>
     </div>
