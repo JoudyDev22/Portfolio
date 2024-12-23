@@ -25,7 +25,7 @@ export default function Contact(){
             </div>
                     </Col>
                     <Col xs={12} md={6} lg={5}>
-                    <img src={coo} alt="ff"></img>
+                    <img src={coo} alt="ff" className="img-fluid"></img>
                     </Col>
                 </Row>
             </Container>

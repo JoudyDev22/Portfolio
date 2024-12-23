@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { ArrowRightCircle } from "react-bootstrap-icons";
+import { ArrowRightCircle} from "react-bootstrap-icons";
 import headerimg from '../assests/header-img.svg';
 import { useEffect, useState } from "react";
 import TrackVisibility from "react-on-screen";
@@ -62,7 +62,7 @@ export default function Banner(){
                     <TrackVisibility>
                     {({isVisible})=>
                     <div className={isVisible?"animate__animated animate__zoomIn":""}>
-                    <img src={headerimg} style={{width:"100%"}} alt="img"></img>
+                    <img src={headerimg} style={{width:"100%"}} alt="img" className="img-fluid"></img>
                     </div>}
                     </TrackVisibility>
                     </Col>

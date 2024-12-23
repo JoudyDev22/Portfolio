@@ -33,7 +33,7 @@ export default function Aboutme(){
         </div>
                     </Col>
         <Col xs={12} md={6} lg={5}>
-        <img src={star} style={{width:"100% "}} alt='img'></img>
+        <img src={star} style={{width:"100% "}} alt='img' className="img-fluid"></img>
         </Col>           
                 </Row>
             </Container>

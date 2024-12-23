@@ -1,23 +1,63 @@
 import { Container, Row ,Col} from "react-bootstrap";
+import html from './../assests/html.svg';
+import css from './../assests/css3.svg';
+import js from './../assests/javascript.svg';
+import react from './/../assests/react.svg';
+import bootstrap from './../assests/bootstrap.svg';
+import axios from './../assests/Axios.png';
+import git from './../assests/git.svg';
+import SkillsCard from "./SkillsCard";
+
 
 export default function Skills(){
+    const list=[
+        {
+        img:(`${html}`),
+        title:"HTML",
+        text:"Structure web content"
+        },
+        {
+        img:(`${css}`),
+        title:"CSS",
+        text:"User Interface"
+        },
+        {
+        img:(`${js}`),
+        title:"JavaScript",
+        text:"Interaction"
+        },
+        {
+        img:(`${react}`),
+        title:"React",
+        text:"JavaScript library"
+        },
+        {
+        img:(`${bootstrap}`),
+        title:"Bootstrap",
+        text:"CSS library "
+        },
+        {
+        img:(`${axios}`),
+        title:"Axios",
+        text:"Simplifies API requests "
+        },
+        {
+        img:(`${git}`),
+        title:"Git/GitHub",
+        text:"Version Control System"
+        },
+    ]
+    const showlist=list.map((list,index)=> <SkillsCard img={list.img} title={list.title} text={list.text}></SkillsCard>);
     return(
         <section className="skill" id="skills">
             <Container>
                 <Row>
                     <Col>
-                    <div className="skill-bx ">
-                    <h1>Skills</h1>
+                    <h1>Essential Tools I use</h1>
+                    <p style={{fontSize:"18px"}}>Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.</p>
+                    <div >
                     <div  className="owl-carousel owl-theme skill-slider">
-                        <div className="parent">
-                        <div className="item">HTML</div>
-                        <div className="item">CSS</div>
-                        <div className="item">JavaScript</div>
-                        <div className="item">React</div>
-                        <div className="item">Bootstrap</div>
-                        <div className="item">React Bootstrap</div>
-                        </div>
-                        
+                        {showlist}
                     </div>
                     </div>
                     </Col>
