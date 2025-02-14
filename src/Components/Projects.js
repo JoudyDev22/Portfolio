@@ -8,7 +8,7 @@ export default function Projects(){
         title:"Website to Provide Job Opportunities",
         desc:"A link between job seekers and business owners",
         lang: "React",
-        link:"https://github.com/JoudyDev22/job"
+        link:"https://github.com/JoudyDev22/frontend-job-seeker"
     }
 ]
     const project2=[{

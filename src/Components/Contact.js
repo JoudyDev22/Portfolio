@@ -19,7 +19,7 @@ export default function Contact(){
                     <div className='social-icon'>
             <a href='https://www.facebook.com/joudy.dawalibi.5?mibextid=ZbWKwL' className='link'><i className="fa-brands fa-facebook-f"></i></a>
             <a href='https://www.instagram.com/joudydawalibi?igsh=cmFyeWgxNjBqdWMy'className='link' ><i className="fa-brands fa-instagram"></i></a>
-            <a href='#'className='link'><i className="fa-brands fa-linkedin-in"></i></a>
+            <a href='https://www.linkedin.com/in/joudy-dawalibi-bb3994350/'className='link'><i className="fa-brands fa-linkedin-in"></i></a>
             <a href='https://github.com/JoudyDev22'className='link'><Github></Github></a>
             <a href="https://t.me/JoudyDawalibi" className='link'><i className="fa-brands fa-telegram"></i></a>
             </div>

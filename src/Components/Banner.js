@@ -4,6 +4,7 @@ import headerimg from '../assests/header-img.svg';
 import { useEffect, useState } from "react";
 import TrackVisibility from "react-on-screen";
 import { isVisible } from "@testing-library/user-event/dist/utils";
+import cv from '../assests/Joudy Dawalibi CV.pdf';
 export default function Banner(){
     //array contain words
     let Rotate=['Front-End Developer'];
@@ -50,12 +51,17 @@ export default function Banner(){
                     <Col xs={12} md={6} xl={7}>
                     <TrackVisibility>
                     {({isVisible})=>
+                    
                     <div className={isVisible?"animate__animated animate__fadeIn":""}>
                     <span className="tagline">Welcome to my Portfolio</span>
                     <h1>Hi! I'm Joudy Dawalibi <span className="wrap">{text}</span> </h1>
                     <p>I am a Front-End Developer with a passion for building dynamic and responsive web applications . Graduated from the Faculty of informatics  Engineering University of Aleppo, I have been immersed in the field for over a year. My projects reflect my commitment to creating user-friendly interfaces and enhancing user experiences. I am eager to continue growing my skills and contributing to innovative projects.</p>
+                    <div className="d-flex justifiy-content-center align-items-center ">
+                    <button className="tagline"><a href={cv} download="resume" style={{textDecoration:"none",color:"white"}}>Download CV</a></button>
+                    </div>
                     <button>Let’s Connect <ArrowRightCircle style={{marginLeft:"12px"}} size={"25px"}></ArrowRightCircle></button>
-                    </div>}
+                    </div>
+                    }
                     </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} lg={5}>

@@ -26,7 +26,7 @@ export default function Aboutme(){
             <Card.Body>
             <Card.Link href="https://www.facebook.com/joudy.dawalibi.5?mibextid=ZbWKwL"><i className="fa-brands fa-facebook-f"></i></Card.Link>
             <Card.Link href="https://www.instagram.com/joudydawalibi?igsh=cmFyeWgxNjBqdWMy"><i className="fa-brands fa-instagram"></i></Card.Link>
-            <Card.Link href="#"><i className="fa-brands fa-linkedin-in"></i></Card.Link>
+            <Card.Link href="https://www.linkedin.com/in/joudy-dawalibi-bb3994350/"><i className="fa-brands fa-linkedin-in"></i></Card.Link>
             <Card.Link href="https://t.me/JoudyDawalibi"><i className="fa-brands fa-telegram"></i></Card.Link>
             </Card.Body>
         </Card>
