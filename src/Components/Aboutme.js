@@ -14,7 +14,7 @@ export default function Aboutme(){
             <Card.Body>
             <Card.Title style={{fontWeight:"bold",color:"#fff"}}>Personal Info</Card.Title>
             </Card.Body>
-            <ListGroup className="list-group-flush" >
+            <ListGroup className="list-group-flush" data-aos="fade-right" data-aos-duration="1500"  >
             <ListGroup.Item style={{border:"none",backgroundColor:"transparent",color:"#fff"}}><span className='title'>Full Name :</span> Joudy Dawalibi</ListGroup.Item>
             <ListGroup.Item style={{border:"none",backgroundColor:"transparent",color:"#fff"}}><span className='title'>Birthday :</span> 16 December 2001</ListGroup.Item>
             <ListGroup.Item style={{border:"none",backgroundColor:"transparent",color:"#fff"}}><span className='title'>Current Address :</span> Aleppo / Syria</ListGroup.Item>

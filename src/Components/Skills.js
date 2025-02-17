@@ -47,7 +47,11 @@ export default function Skills(){
         text:"Version Control System"
         },
     ]
-    const showlist=list.map((list,index)=> <SkillsCard img={list.img} title={list.title} text={list.text}></SkillsCard>);
+    const showlist=list.map((list,index)=> 
+        <div  >
+    <SkillsCard img={list.img} title={list.title} text={list.text} ></SkillsCard>
+    </div>
+);
     return(
         <section className="skill" id="skills">
             <Container>
@@ -56,7 +60,7 @@ export default function Skills(){
                     <h1>Essential Tools I use</h1>
                     <p style={{fontSize:"18px"}}>Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.</p>
                     <div >
-                    <div  className="owl-carousel owl-theme skill-slider">
+                    <div  className="owl-carousel owl-theme skill-slider" >
                         {showlist}
                     </div>
                     </div>

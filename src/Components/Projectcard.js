@@ -5,7 +5,7 @@ import { Github } from "react-bootstrap-icons";
 export default function Projectcard(props){
     return(
         <Col sm={6} md={4}>
-        <div >
+        <div data-aos="flip-left" data-aos-duration="1500"  >
         <Card className="project-card" style={{ width: '20rem',height:"27rem" }}>
         <Card.Img variant="top" src={props.img} />
         <Card.Body>

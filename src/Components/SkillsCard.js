@@ -3,8 +3,8 @@ import { ListGroup } from "react-bootstrap";
 export default function SkillsCard(props){
     return(
         <>
-        <ListGroup>
-        <ListGroup.Item variant="secondary" className="list-item">
+        <ListGroup >
+        <ListGroup.Item variant="secondary" className="list-item "  data-aos-easing="linear" data-aos="fade-down" data-aos-duration="3000" >
         <div className="img">
         <img src={props.img} alt="img"  className="img-fluid"></img>
         </div>

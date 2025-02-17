@@ -43,7 +43,9 @@ export default function Projects(){
                                 <div style={{display:"flex",alignItems:"flex-start",justifyContent:"space-between",flexWrap:"wrap",gap:"10px"}}>{
                             project.map((pro,index)=>{
                                 return (
-                                    <Projectcard key={index} img={pro.img} title={pro.title} desc={pro.desc} link={pro.link} lang={pro.lang}></Projectcard>
+                                    <div className="project-card">
+                                        <Projectcard key={index} img={pro.img} title={pro.title} desc={pro.desc} link={pro.link} lang={pro.lang}></Projectcard>
+                                    </div>
                                 )
                             })
                                 }
@@ -55,7 +57,9 @@ export default function Projects(){
                                 <div style={{display:"flex",alignItems:"flex-start",justifyContent:"space-between",flexWrap:"wrap",gap:"10px"}}>{
                             project2.map((pro,index)=>{
                                 return (
-                                    <Cart key={index} img={pro.img} title={pro.title} desc={pro.desc} link={pro.link} pre={pro.pre} lang={pro.lang}></Cart>
+                                    <div className="project-card">
+                                        <Cart key={index} img={pro.img} title={pro.title} desc={pro.desc} link={pro.link} pre={pro.pre} lang={pro.lang}></Cart>
+                                    </div>
                                 )
                             })
                                 }

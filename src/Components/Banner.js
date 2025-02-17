@@ -2,8 +2,6 @@ import { Col, Container, Row } from "react-bootstrap";
 import { ArrowRightCircle} from "react-bootstrap-icons";
 import headerimg from '../assests/header-img.svg';
 import { useEffect, useState } from "react";
-import TrackVisibility from "react-on-screen";
-import { isVisible } from "@testing-library/user-event/dist/utils";
 import cv from '../assests/Joudy Dawalibi CV.pdf';
 export default function Banner(){
     //array contain words
@@ -49,10 +47,7 @@ export default function Banner(){
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                    <TrackVisibility>
-                    {({isVisible})=>
-                    
-                    <div className={isVisible?"animate__animated animate__fadeIn":""}>
+                    <div  data-aos="fade-right" data-aos-duration="1500" >
                     <span className="tagline">Welcome to my Portfolio</span>
                     <h1>Hi! I'm Joudy Dawalibi <span className="wrap">{text}</span> </h1>
                     <p>I am a Front-End Developer with a passion for building dynamic and responsive web applications . Graduated from the Faculty of informatics  Engineering University of Aleppo, I have been immersed in the field for over a year. My projects reflect my commitment to creating user-friendly interfaces and enhancing user experiences. I am eager to continue growing my skills and contributing to innovative projects.</p>
@@ -61,16 +56,11 @@ export default function Banner(){
                     </div>
                     <button>Let’s Connect <ArrowRightCircle style={{marginLeft:"12px"}} size={"25px"}></ArrowRightCircle></button>
                     </div>
-                    }
-                    </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} lg={5}>
-                    <TrackVisibility>
-                    {({isVisible})=>
-                    <div className={isVisible?"animate__animated animate__zoomIn":""}>
+                    <div >
                     <img src={headerimg} style={{width:"100%"}} alt="img" className="img-fluid"></img>
-                    </div>}
-                    </TrackVisibility>
+                    </div>
                     </Col>
                 </Row>
             </Container>
