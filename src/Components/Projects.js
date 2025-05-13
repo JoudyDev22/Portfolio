@@ -3,7 +3,8 @@ import Projectcard from "./Projectcard";
 import Cart from "./Cart";
 
 export default function Projects(){
-    const project=[{
+    const project=[
+        {
         img: require("./../assests/Screenshot (63).png"),
         title:"Website to Provide Job Opportunities",
         desc:"A link between job seekers and business owners",
@@ -11,7 +12,16 @@ export default function Projects(){
         link:"https://github.com/JoudyDev22/frontend-job-seeker"
     }
 ]
-    const project2=[{
+    const project2=[
+       {
+        img: require("./../assests/Screenshot (239).png"),
+        title:"E-commerce Platform",
+        desc:"includes secure user authentication, product listings,cart functionality,user-friendly shopping experience.",
+        lang: "React ,Bootstrap",
+        link:"https://github.com/JoudyDev22/E-commerce-front.git",
+        pre:"https://e-commerce-seven-iota-65.vercel.app/"
+    } ,
+    {
         img: require("./../assests/Screenshot (228).png"),
         title:"Foodor - Restaurant Service Template",
         lang: "React ,Bootstrap",
@@ -40,11 +50,11 @@ export default function Projects(){
                         <Tab.Content>
                         <Tab.Pane eventKey="first">{
                             <Row >
-                                <div style={{display:"flex",alignItems:"flex-start",justifyContent:"space-between",flexWrap:"wrap",gap:"10px"}}>{
-                            project.map((pro,index)=>{
+                            <div style={{display:"flex",alignItems:"flex-start",flexWrap:"wrap",gap:"30px"}}>{
+                            project2.map((pro,index)=>{
                                 return (
                                     <div className="project-card">
-                                        <Projectcard key={index} img={pro.img} title={pro.title} desc={pro.desc} link={pro.link} lang={pro.lang}></Projectcard>
+                                        <Cart key={index} img={pro.img} title={pro.title} desc={pro.desc} link={pro.link} pre={pro.pre} lang={pro.lang}></Cart>
                                     </div>
                                 )
                             })
@@ -54,11 +64,11 @@ export default function Projects(){
                             }</Tab.Pane>
                         <Tab.Pane eventKey="second">
                         <Row >
-                                <div style={{display:"flex",alignItems:"flex-start",justifyContent:"space-between",flexWrap:"wrap",gap:"10px"}}>{
-                            project2.map((pro,index)=>{
+                            <div style={{display:"flex",alignItems:"flex-start",flexWrap:"wrap",gap:"30px"}}>{
+                            project.map((pro,index)=>{
                                 return (
                                     <div className="project-card">
-                                        <Cart key={index} img={pro.img} title={pro.title} desc={pro.desc} link={pro.link} pre={pro.pre} lang={pro.lang}></Cart>
+                                        <Projectcard key={index} img={pro.img} title={pro.title} desc={pro.desc} link={pro.link} lang={pro.lang}></Projectcard>
                                     </div>
                                 )
                             })
@@ -75,3 +85,4 @@ export default function Projects(){
             </section>
         )
 }
+    

@@ -26,7 +26,7 @@ export default function NavBar() {
     return (
     <Navbar expand="lg" className={scrolled?"scrolled":""}>
     <Container>
-        <h2>{`<>`}JD</h2>
+        <h2>{`</>`}JD</h2>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
