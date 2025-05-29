@@ -13,7 +13,7 @@ export default function Projects(){
     }
 ]
     const project2=[
-       {
+           {
         img: require("./../assests/Screenshot (239).png"),
         title:"E-commerce Platform",
         desc:"includes secure user authentication, product listings,cart functionality,user-friendly shopping experience.",
@@ -27,7 +27,15 @@ export default function Projects(){
         lang: "React ,Bootstrap",
         link:"https://github.com/JoudyDev22/Bootstrap-Project",
         pre:"https://joudydev22.github.io/Bootstrap-Project/"
+    },
+    {
+        img: require("./../assests/Screenshot (240).png"),
+        title:"To-do List ",
+        lang: "React ",
+        link:"https://github.com/JoudyDev22/Todo-app.git",
+        pre:"https://todo-app-theta-silk.vercel.app/"
     }
+
 ]
         return(
             <section className="projects" id="projects">
