@@ -30,10 +30,10 @@ export default function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-            <Nav.Link href="#home" className={activelink ==="home"?"active navbar-link":'navbar-link'} onClick={()=>onupdateactivelink('home')}>Home</Nav.Link>
-            <Nav.Link href="#skills" className={activelink==="skills"?"active navbar-link":'navbar-link'} onClick={()=>onupdateactivelink('skills')}>Skills</Nav.Link>
-            <Nav.Link href="#Aboutme" className={activelink==="Aboutme"?"active navbar-link":'navbar-link'} onClick={()=>onupdateactivelink('Aboutme')}>About</Nav.Link>
-            <Nav.Link href='#projects' className={activelink==="projects"?"active navbar-link":'navbar-link'} onClick={()=>onupdateactivelink('projects')}>Projects</Nav.Link>
+            <Nav.Link href="#home" className={activelink ==="home"?"active navbar-link":'navbar-link'} onClick={()=>onupdateactivelink('home')}><i className='fas fa-home me-2'></i>Home</Nav.Link>
+            <Nav.Link href="#Aboutme" className={activelink==="Aboutme"?"active navbar-link":'navbar-link'} onClick={()=>onupdateactivelink('Aboutme')}><i className='fas fa-user me-2'></i>About Me</Nav.Link>
+            <Nav.Link href="#skills" className={activelink==="skills"?"active navbar-link":'navbar-link'} onClick={()=>onupdateactivelink('skills')}>{`</>`} Skills</Nav.Link>
+            <Nav.Link href='#projects' className={activelink==="projects"?"active navbar-link":'navbar-link'} onClick={()=>onupdateactivelink('projects')}><i className='fas fa-folder-open me-2'></i>Projects</Nav.Link>
             </Nav>
             <span className='navbar-text'style={{display:"flex"}}>
             <Nav.Link href="#connect">
