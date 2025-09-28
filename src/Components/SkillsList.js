@@ -5,7 +5,8 @@ import react from './/../assests/react.svg';
 import bootstrap from './../assests/bootstrap.svg';
 import axios from './../assests/Axios.png';
 import git from './../assests/git.svg';
-import typescript from './../assests/typescript.svg'
+import typescript from './../assests/typescript.svg';
+import tailwind from './../assests/Tailwind_CSS_Logo.svg';
 export   const list=[
         {
         img:(`${html}`),
@@ -24,13 +25,18 @@ export   const list=[
         },
         {
         img:(`${react}`),
-        title:"React",
+        title:"React JS",
         text:"JavaScript library"
         },
         {
         img:(`${typescript}`),
         title:"TypeScript",
         text:"JavaScript With Syntax For Types."
+        },
+        {
+        img:(`${tailwind}`),
+        title:"Tailwind CSS",
+        text:"A utility-first CSS framework "
         },
         {
         img:(`${bootstrap}`),

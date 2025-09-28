@@ -16,6 +16,7 @@ body{
 }
 .App{
     text-align: center;
+    overflow: hidden;
 }
 @media (min-width:1700px) {
 	main .container {
@@ -196,6 +197,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
+    
 }
 .Banner .tagline {
     font-weight: 700;

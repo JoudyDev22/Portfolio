@@ -15,7 +15,7 @@ export default function Projectcard(props){
         <Button variant="dark"  ><Link to={props.link} style={{textDecoration:"none",color:"white"}}>< Github ></Github>  Github</Link></Button>
         </Card.Body>
         </Card>
-    </div>
+        </div>
         </Col>
     )
     

@@ -15,14 +15,6 @@ export const project=[
 ]
 export const project2=[
     {
-        img: require("./../assests/Screenshot (228).png"),
-        title:"Foodor - Restaurant Service Template",
-        desc:"a responsive food showcase template",
-        lang: "React ,Bootstrap",
-        link:"https://github.com/JoudyDev22/Bootstrap-Project",
-        pre:"https://joudydev22.github.io/Bootstrap-Project/"
-    },
-    {
         img: require("./../assests/Screenshot (240).png"),
         title:"To-do List ",
         desc:"a simple and interactive to-do list app",
