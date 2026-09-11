@@ -7,31 +7,34 @@ import axios from './../assests/Axios.png';
 import git from './../assests/git.svg';
 import typescript from './../assests/typescript.svg';
 import tailwind from './../assests/Tailwind_CSS_Logo.svg';
+import nextt from './../assests/nextjs.jpeg';
+import tanstack from "./../assests/images (1).jpg"
 export   const list=[
+       
         {
-        img:(`${html}`),
-        title:"HTML",
-        text:"Structure web content"
+        img:(`${nextt}`),
+        title:"Next jS",
+        text:"web development framework"
         },
         {
-        img:(`${css}`),
-        title:"CSS",
-        text:"User Interface"
+            img:(`${js}`),
+            title:"JavaScript",
+            text:"Interaction"
         },
         {
-        img:(`${js}`),
-        title:"JavaScript",
-        text:"Interaction"
+            img:(`${react}`),
+            title:"React JS",
+            text:"JavaScript library"
         },
         {
-        img:(`${react}`),
-        title:"React JS",
-        text:"JavaScript library"
+            img:(`${typescript}`),
+            title:"TypeScript",
+            text:"JavaScript With Syntax For Types."
         },
         {
-        img:(`${typescript}`),
-        title:"TypeScript",
-        text:"JavaScript With Syntax For Types."
+        img:(`${tanstack}`),
+        title:"Tanstack query",
+        text:"state management library"
         },
         {
         img:(`${tailwind}`),
@@ -43,6 +46,16 @@ export   const list=[
         title:"Bootstrap",
         text:"CSS library "
         },
+        {
+            img:(`${html}`),
+            title:"HTML",
+            text:"Structure web content"
+            },
+            {
+            img:(`${css}`),
+            title:"CSS",
+            text:"User Interface"
+     },   
         {
         img:(`${axios}`),
         title:"Axios",

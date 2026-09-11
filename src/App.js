@@ -3,10 +3,9 @@ import Banner from './Components/Banner';
 import NavBar from './Components/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Skills from './Components/Skills';
-import Aboutme from './Components/Aboutme';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
-
+import Experience from './Components/Experience';
 
 
 
@@ -16,7 +15,7 @@ function App() {
     <div className='App'>
     <NavBar></NavBar>
     <Banner></Banner>
-    <Aboutme></Aboutme>
+    <Experience></Experience>
     <Skills></Skills>
     <Projects></Projects>
     <Contact></Contact> 

@@ -1,31 +1,53 @@
-import { Container, Row ,Col} from "react-bootstrap";
+// import { Container, Row, Col } from "react-bootstrap";
+// import SkillsCard from "./SkillsCard";
+// import { list } from "./SkillsList";
+
+// export default function Skills() {
+//     const showlist = list.map((item, index) =>
+//         <SkillsCard key={index} img={item.img} title={item.title} text={item.text}></SkillsCard>
+//     );
+//     return (
+//         <section className="skill" id="skills">
+//             <Container>
+//                 <div className="section-head">
+//                     <span className="eyebrow">&lt;Skills /&gt;</span>
+//                     <h2>Tools & technologies I use</h2>
+//                     <p>The stack I rely on to build fast, maintainable and responsive web applications.</p>
+//                 </div>
+//                 <Row>
+//                     <Col>
+//                         <div className="skills-grid">
+//                             {showlist}
+//                         </div>
+//                     </Col>
+//                 </Row>
+//             </Container>
+//         </section>
+//     )
+// }
+import { Container, Row, Col } from "react-bootstrap";
 import SkillsCard from "./SkillsCard";
 import { list } from "./SkillsList";
 
-
-export default function Skills(){
-
-    const showlist=list.map((list,index)=> 
-        <div  >
-    <SkillsCard img={list.img} title={list.title} text={list.text} ></SkillsCard>
-    </div>
-);
-    return(
+export default function Skills() {
+    const showlist = list.map((item, index) =>
+        <SkillsCard key={index} img={item.img} title={item.title} text={item.text}></SkillsCard>
+    );
+    return (
         <section className="skill" id="skills">
             <Container>
+                <div className="section-head">
+                    <h2>Tools & technologies I use</h2>
+                    <p>The stack I rely on to build fast, maintainable and responsive web applications.</p>
+                </div>
                 <Row>
                     <Col>
-                    <h1>Essential Tools I use</h1>
-                    <p style={{fontSize:"18px"}}>Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.</p>
-                    <div >
-                    <div  className="owl-carousel owl-theme skill-slider" >
-                        {showlist}
-                    </div>
-                    </div>
+                        <div className="skills-grid">
+                            {showlist}
+                        </div>
                     </Col>
                 </Row>
             </Container>
         </section>
     )
-    
 }

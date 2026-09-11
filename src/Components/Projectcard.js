@@ -7,7 +7,7 @@ export default function Projectcard(props){
         <Col sm={6} md={4}>
         <div data-aos="flip-left" data-aos-duration="1500"  >
         <Card className="project-card" style={{ width: '20rem',height:"27rem" }}>
-        <Card.Img variant="top" src={props.img} />
+        <Card.Img variant="top"  src={props.img} />
         <Card.Body>
         <Card.Title style={{textAlign:"start",fontWeight:"bold"}}>{props.title}</Card.Title>
         <Card.Text style={{textAlign:"start",fontSize:"18px"}}>{props.desc}.</Card.Text>

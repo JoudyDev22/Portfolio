@@ -30,9 +30,7 @@ export default function Aboutme(){
                                 <ListGroup className="list-group-flush" data-aos="fade-right" data-aos-duration="1500">
                                     <ListGroup.Item style={{ border: "none", backgroundColor: "transparent", color: "#fff" }}><span className='title'>Full Name :</span> Joudy Dawalibi</ListGroup.Item>
                                     <ListGroup.Item style={{ border: "none", backgroundColor: "transparent", color: "#fff" }}><span className='title'>Current Address :</span> Aleppo / Syria</ListGroup.Item>
-                                    <ListGroup.Item style={{ border: "none", backgroundColor: "transparent", color: "#fff" }}><span className='title'>Primary language :</span> Arabic(Native)</ListGroup.Item>
-                                    <ListGroup.Item style={{ border: "none", backgroundColor: "transparent", color: "#fff" }}><span className='title'>Secondary language :</span> English (Intermediate)</ListGroup.Item>
-                                    <ListGroup.Item style={{ border: "none", backgroundColor: "transparent", color: "#fff" }}><span className='title'>Nationality :</span> Syrian</ListGroup.Item>
+
                                     <ListGroup.Item style={{ border: "none", backgroundColor: "transparent", color: "#fff" }}><span className='title'>Email :</span> joudydawalibi9@gmail.com</ListGroup.Item>
                                 </ListGroup>
                                 <Card.Body>

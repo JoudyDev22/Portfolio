@@ -36,8 +36,8 @@ export default function Projects(){
                                 }}
                                 className="projects-cards-wrapper"
                             >
-                                {pro2}
                                 {pro1}
+                                {pro2}
                             </div>
                         </Col> 
                     </Row>
